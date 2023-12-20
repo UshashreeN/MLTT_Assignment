@@ -27,7 +27,7 @@
 # --------------------------------------------------------------      
 # Customer Churn Dataset
 
-#Dataset Descripiton:
+# Dataset Descripiton:
    Customer Churn data is collected as .csv file format whixh has 12 attributes: CustomerID,	Age,	Gender,	Tenure,	Usage, Frequency,	Support, Calls,	Payment, Delay,	Subscription, Type,	Contract Length,	Total Spend,	Last Interaction,	Churn.
 
 # Methodology
@@ -45,14 +45,14 @@ techniques can also be applied to forecast and proactively address potential chu
 
 The goal of this notebook is to discover insights by performing customer segmentation using k-means clustering algorithm and building the classification model to predict the churn probability.
 
-
+# Conclusion
 ### According to the explainer above, we can draw the following conclusions
 
-Female customers prone to churn more than male.
-Customer with age more than an average (40 years old) has higher probability of churn.
-Customer with short-term contract (Monthly contract) tends to churn more than customer with long-term contract (Quaterly and Annual)
-Customer who call for supports more than four times increase the probability of churn.
-Customer with payment delay higher than an average of the sample (12 months) has higher proablity to churn.
-Customer with lower spending score tends to churn more than customer with higher spending score.
-Customer with up to date interaction tends to churn less.
+1.Female customers prone to churn more than male.
+2.Customer with age more than an average (40 years old) has higher probability of churn.
+3.Customer with short-term contract (Monthly contract) tends to churn more than customer with long-term contract (Quaterly and Annual)
+4.Customer who call for supports more than four times increase the probability of churn.
+5.Customer with payment delay higher than an average of the sample (12 months) has higher proablity to churn.
+6.Customer with lower spending score tends to churn more than customer with higher spending score.
+7.Customer with up to date interaction tends to churn less.
 ​
